@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: black;
+	/*margin: 0 2em;*/
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(../fonts/Poppins-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(../fonts/Poppins-Medium.ttf) format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+/*keyframe to change color later */
+
+body, html{
+	font-family: 'Poppins', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	color:white;
+	/*background-color: black;*/
+	/*margin: 0;
+	padding: 0;*/
+}
+
+#navbar{
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	text-align: center;
+	/*display: inline;*/
+	z-index: 100;
+	margin-bottom: 10px;
+	border-bottom: 3px solid red;
+	transition: .5s all;
+	background-color: black;
+}
+
+li {
+	display: inline;
+	padding: 0 1em;
+
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+} /*elements of navbar will just be white color*/
+
+.active-nav {
+	border-bottom: 3px solid red; /*use keyframe on this maybe*/
+}
+/* @keyframe */
+
+#pageContent {
+	padding-top: 50px;
+	margin: 0;
+}
+
+#landing{
+	margin-top: 5em;
+	text-align: center;
+	margin-bottom: 6em;
+}
+
+h1.ugahacks4{
+	font-size:35px;
+	font-weight: lighter;
+	text-align: center;
+}
+h1.title{
+	font-size:30px;
+	font-weight:lighter;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#about p{
+	font-size:18px;
+	font-weight:lighter;
+	margin-left: 15%;
+	margin-right: 40%;	
+}
+
+#challenges p{
+	font-size: 18px;
+	font-weight: lighter;
+	margin-right: 15%;
+	margin-left: 40%
+}
+
+#schedule p{
+	font-size:18px;
+	font-weight:lighter;
+	margin-left: 15%;
+	margin-right: 40%
+	padding-bottom:18px;
+}
+
+#registration p{
+	font-weight: lighter;
+	font-size: 18px;
+	padding-bottom: 18px;
+}
+
+#faq p{
+	font-weight: lighter;
+	font-size:18px;
+	margin-left: 15%;
+	margin-right: 40%;
+}
