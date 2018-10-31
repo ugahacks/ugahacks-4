@@ -113,9 +113,10 @@ h1.title{
 }
 
 #registration p{
-	font-weight: lighter;
 	font-size: 18px;
-	padding-bottom: 18px;
+	font-weight: lighter;
+	margin-right: 15%;
+	margin-left: 55%
 }
 
 #faq p{
