@@ -64,7 +64,7 @@ li {
 } /*elements of navbar will just be white color*/
 
 .active-nav {
-	border-bottom: 3px solid red; /*use keyframe on this maybe*/
+	border-bottom: 3px solid #e4464a; /*use keyframe on this maybe*/
 }
 /* @keyframe */
 
@@ -76,7 +76,6 @@ li {
 #landing{
 	margin-top: 5em;
 	text-align: center;
-	margin-bottom: 6em;
 }
 
 h1.ugahacks4{
@@ -88,7 +87,7 @@ h1.title{
 	font-size:30px;
 	font-weight:lighter;
 	text-align: center;
-	margin-top: 20%;
+	padding-top: 10%;
 }
 
 #about p{
@@ -124,4 +123,8 @@ h1.title{
 	font-size:18px;
 	margin-left: 15%;
 	margin-right: 40%;
+}
+
+.pcbline{
+	margin-left:49.9%; display:block;
 }
