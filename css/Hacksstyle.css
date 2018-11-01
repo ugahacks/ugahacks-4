@@ -81,7 +81,7 @@ li {
 
 #landing {
     text-align: center;
-    background-image: url("/image/UGAH4-BG1.jpg");
+    background-image: url("../image/UGAH4-BG1.jpg");
 }
 
 h1 {
@@ -102,7 +102,7 @@ p {
 }
 
 #about {
-    background-image: url("/image/UGAH4-BG2.jpg");
+    background-image: url("../image/UGAH4-BG2.jpg");
 }
 
 #about p {
@@ -111,7 +111,7 @@ p {
 }
 
 #challenges {
-    background-image: url("/image/UGAH4-BG3.jpg");
+    background-image: url("../image/UGAH4-BG3.jpg");
 }
 
 #challenges p {
@@ -120,7 +120,7 @@ p {
 }
 
 #schedule {
-    background-image: url("/image/UGAH4-BG4.jpg");
+    background-image: url("../image/UGAH4-BG4.jpg");
 }
 
 #schedule p {
@@ -132,7 +132,7 @@ p {
 }
 
 #registration {
-    background-image: url("/image/UGAH4-BG5.jpg");
+    background-image: url("../image/UGAH4-BG5.jpg");
 }
 
 #registration p {
@@ -143,7 +143,7 @@ p {
 }
 
 #faq {
-    background-image: url("/image/UGAH4-BG6.jpg");
+    background-image: url("../image/UGAH4-BG6.jpg");
 }
 
 #faq p {
@@ -154,7 +154,7 @@ p {
 }
 
 #sponsors {
-    background-image: url("/image/UGAH4-BG7.jpg");
+    background-image: url("../image/UGAH4-BG7.jpg");
 }
 
 .pcbline {
