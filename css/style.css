@@ -156,7 +156,6 @@ p {
 
 #main h1 {
     font-size: 3vw;
-    white-space: nowrap;
 }
 
 #main .btn {
@@ -193,11 +192,11 @@ p {
 }
 
 @media (max-width: 768px) {
-    #main > div > * {
+    #main > div > div > * {
         margin: 1em auto;
         display: block;
     }
-    #main > div > *:nth-child(1) {
+    #main > div > div > *:nth-child(1) {
         margin-left: 0;
     }
     #main h1 {
