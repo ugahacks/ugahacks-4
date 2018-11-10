@@ -24,13 +24,25 @@ body > div:nth-of-type(n + 2) {
     justify-content: center;
 }
 
-h1 {
-    font-weight: lighter;
-}
-
 p {
     font-size: 18px;
     font-weight: lighter;
+}
+
+a {
+    color: #fff;
+    transition: 0.5s all;
+}
+
+a:hover {
+    color: #e4464a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
 }
 
 /* Classes */
@@ -48,7 +60,7 @@ p {
 }
 
 .boxcontent > div {
-    margin: 50px 50px 0 50px;
+    padding: 50px 50px 0 50px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -64,22 +76,18 @@ p {
 }
 
 .btn {
-    border: 2px solid #ce4343;
+    border: 2px solid #e4464a;
     border-radius: 5px;
     padding: 10px 30px;
     margin: 5px;
     font-size: 1.5em;
-    transition: 0.5s all;
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 .btn:hover {
-    background: #ce4343;
-}
-
-*.btn {
-    text-decoration: none;
-    color: white;
+    background: #e4464a;
 }
 
 /* IDs */
@@ -87,6 +95,7 @@ p {
 /* Navbar */
 
 #navbar {
+    z-index: 1;
     width: 100%;
     min-height: 40px;
     position: fixed;
@@ -109,16 +118,14 @@ p {
 #navbar a {
     color: white;
     text-decoration: none;
-    transition: 0.5s all;
 }
 
 #navbar a:hover {
-    color: red;
-    text-decoration: none;
+    color: #e4464a;
 }
 
 /* .active-nav {
-    border-bottom: 3px solid #e4464a; 
+  border-bottom: 3px solid #e4464a; 
 } */
 
 #main {
@@ -179,6 +186,15 @@ p {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
+#schedule tr {
+    line-height: 2em;
+}
+
+#schedule tr > td:nth-of-type(1) {
+    text-align: right;
+    padding-right: 50px;
+}
+
 #registration {
     background-image: url("../img/UGAH4-BG5.jpg");
 }
@@ -187,11 +203,41 @@ p {
     background-image: url("../img/UGAH4-BG6.jpg");
 }
 
-#sponsors {
-    background-image: url("../img/UGAH4-BG7.jpg");
+#faq h3 {
+    margin-top: 1em;
+    font-weight: bold;
 }
 
-@media (max-width: 768px) {
+#sponsors {
+    background-image: url("../img/UGAH4-BG7.jpg");
+    min-height: 60vh;
+}
+
+#sponsors h2 {
+    font-weight: bold;
+}
+
+#sponsors a h2 {
+    font-weight: normal;
+}
+
+@media (max-width: 768px), (orientation: portrait) {
+    .btn {
+        font-size: 1em;
+    }
+    .box {
+        margin: 80px 0;
+    }
+    .decor {
+        width: calc(100% - 100px);
+    }
+    .decor img {
+        max-width: 150px;
+        max-height: 200px;
+    }
+    #navbar {
+        font-size: 0.8em;
+    }
     #main > div > div > * {
         margin: 1em auto;
         display: block;
@@ -201,5 +247,8 @@ p {
     }
     #main h1 {
         font-size: 2em;
+    }
+    #main .btn {
+        bottom: 12%;
     }
 }
