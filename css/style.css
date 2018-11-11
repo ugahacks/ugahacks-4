@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=K2D");
 
 /* Elements */
 
@@ -13,7 +13,7 @@
 
 body {
     background-color: #272727;
-    font-family: "Poppins", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "K2D", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: white;
 }
 
@@ -80,7 +80,7 @@ h4 {
     border-radius: 5px;
     padding: 10px 30px;
     margin: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -88,6 +88,7 @@ h4 {
 
 .btn:hover {
     background: #e4464a;
+    color: #fff;
 }
 
 /* IDs */
