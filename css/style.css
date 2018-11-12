@@ -40,9 +40,24 @@ a:hover {
 
 h1,
 h2,
-h3,
-h4 {
+h3{
     font-weight: normal;
+}
+
+h4{
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
+h5{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h6{
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 /* Classes */
@@ -199,6 +214,44 @@ h4 {
     text-align: right;
     padding-right: 50px;
 }
+
+/* adding Timeline - like UGAHACKS3*/
+.timeline-line {
+    margin: 70px 0 auto 0;
+    flex: initial; /*setting height and width*/
+    width: 10%; /*change width? Does this make it look more elegant? How can I change its width to match mobile?*/
+    border-top: 3px solid #93C611;
+}
+
+.timeline-box {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#timeline {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+hr { /*line break - can be used as timeline. svg? Annoying*/
+    flex: auto;
+    display: block;
+    height: 3px;
+    margin: auto 0 auto 20px;
+    border: 0;
+    border-top: 3px solid #93C611;
+}
+
+
+/*h4 -for month
+h5 - for date
+h6 - for subject*/
+/*End of adding Timeline - like UGAHACKS3*/
 
 #registration {
     background-image: url("../img/UGAH4-BG5.jpg");
