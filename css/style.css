@@ -45,18 +45,18 @@ h3{
 }
 
 h4{
-    font-size: 28px;
+    font-size: 2vw;
     letter-spacing: 5px;
     font-weight: lighter;
 }
 
 h5{
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: lighter;
 }
 
 h6{
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: lighter;
 }
 
@@ -217,15 +217,15 @@ h6{
 
 /* adding Timeline - like UGAHACKS3*/
 .timeline-line {
-    margin: 70px 0 auto 0;
+    margin: 4vw 0 auto 0;
     flex: initial; /*setting height and width*/
-    width: 10%; /*change width? Does this make it look more elegant? How can I change its width to match mobile?*/
+    width: 100%; /*change width? Does this make it look more elegant? How can I change its width to match mobile?*/
     border-top: 3px solid #93C611;
 }
 
 .timeline-box {
     display: block;
-    width: 200px;
+    width: 100%; /*change to %?*/
     margin: 0 auto;
     align-content: center;
 }
