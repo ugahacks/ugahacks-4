@@ -40,23 +40,23 @@ a:hover {
 
 h1,
 h2,
-h3{
+h3 {
     font-weight: normal;
 }
 
-h4{
-    font-size: 2vw;
+h4 {
+    font-size: 2em;
     letter-spacing: 5px;
     font-weight: lighter;
 }
 
-h5{
-    font-size: 3vw;
+h5 {
+    font-size: 3em;
     font-weight: lighter;
 }
 
-h6{
-    font-size: 1.5vw;
+h6 {
+    font-size: 1.5em;
     font-weight: lighter;
 }
 
@@ -217,10 +217,10 @@ h6{
 
 /* adding Timeline - like UGAHACKS3*/
 .timeline-line {
-    margin: 4vw 0 auto 0;
+    margin: auto 0;
     flex: initial; /*setting height and width*/
     width: 100%; /*change width? Does this make it look more elegant? How can I change its width to match mobile?*/
-    border-top: 3px solid #93C611;
+    border-top: 3px solid #93c611;
 }
 
 .timeline-box {
@@ -238,15 +238,15 @@ h6{
     padding-top: 50px;
 }
 
-hr { /*line break - can be used as timeline. svg? Annoying*/
+hr {
+    /*line break - can be used as timeline. svg? Annoying*/
     flex: auto;
     display: block;
     height: 3px;
     margin: auto 0 auto 20px;
     border: 0;
-    border-top: 3px solid #93C611;
+    border-top: 3px solid #93c611;
 }
-
 
 /*h4 -for month
 h5 - for date
@@ -298,10 +298,19 @@ h6 - for subject*/
     }
     .decor img {
         max-width: 150px;
-        max-height: 200px;
+        max-height: 150px;
     }
-    #navbar {
-        font-size: 0.7em;
+    #schedule #boxtext {
+        padding: 0 !important;
+    }
+    #timeline {
+        font-size: 80%;
+    }
+    #navbar > div:first-child {
+        padding: 0;
+    }
+    #navbar > div > a:nth-child(3) {
+        padding: 0;
     }
     #main > div > div > * {
         margin: 1em auto;
