@@ -279,6 +279,19 @@ h6 - for subject*/
     font-weight: normal;
 }
 
+.sponsorlogos{
+    display: flex;
+    margin-top: 2em;
+    justify-content: center; /*just flex wrap needed maybe*/
+    justify-content: space-evenly;
+}
+
+#ulred, #pwcready{
+    width: 15%;
+    height: 15%;
+}
+
+
 @media (max-width: 768px), (orientation: portrait) {
     html {
         font-size: 80%;
