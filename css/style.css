@@ -279,10 +279,11 @@ h6 - for subject*/
     font-weight: normal;
 }
 
+/*
 .sponsorlogos{
     display: flex;
     margin-top: 2em;
-    justify-content: center; /*just flex wrap needed maybe*/
+    justify-content: center;
     justify-content: space-evenly;
 }
 
@@ -290,7 +291,7 @@ h6 - for subject*/
     width: 15%;
     height: 15%;
 }
-
+*/
 
 @media (max-width: 768px), (orientation: portrait) {
     html {
