@@ -286,8 +286,8 @@ h6 - for subject*/
     justify-content: space-evenly;
 }
 #ulred, #pwcready{
-    width: 15%;
-    height: 15%;
+    width: 150px;
+    height: 150px;
 }
 
 @media (max-width: 768px), (orientation: portrait) {
@@ -335,5 +335,9 @@ h6 - for subject*/
     }
     #main .btn {
         bottom: 12%;
+    }
+    #ulred , #pwcready{
+        max-width: 100px;
+        max-height: 100px;
     }
 }
