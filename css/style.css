@@ -299,14 +299,14 @@ h6 - for subject*/
     max-width: 120px;
 }
 
-.partnerlogos{
+.partnerlogos {
     display: flex;
-    margin-top: .5em;
+    margin-top: 0.5em;
     justify-content: center;
     justify-content: space-evenly;
 }
-.partnerlogos img{
-    max-height:60px;
+.partnerlogos img {
+    max-height: 60px;
 }
 
 @media (max-width: 768px), (orientation: portrait) {
@@ -336,11 +336,11 @@ h6 - for subject*/
     #timeline {
         font-size: 80%;
     }
-    #navbar > div:first-child {
-        padding: 0;
+    #navbar {
+        display: none;
     }
-    #navbar > div > a:nth-child(3) {
-        padding: 0;
+    #main {
+        margin-top: 0;
     }
     #main > div > div > * {
         margin: 1em auto;
