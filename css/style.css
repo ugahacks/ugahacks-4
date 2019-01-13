@@ -318,6 +318,16 @@ h6 - for subject*/
     max-height: 60px;
 }
 
+.footer{
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #e4464a;
+}
+
 @media (max-width: 768px), (orientation: portrait) {
     html {
         font-size: 80%;
@@ -364,10 +374,9 @@ h6 - for subject*/
     #main .btn {
         bottom: 12%;
     }
-    #ulred,
-    #pwcready {
-        max-width: 100px;
-        max-height: 100px;
+    .sponsorlogos {
+        display:flex;
+        flex-direction:column;
     }
     #parking-map {
         max-height:35vh;
