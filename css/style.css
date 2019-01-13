@@ -194,15 +194,15 @@ h6 {
     margin: 0 auto;
 }
 
-#about {
+#about, #friday-prep {
     background-image: url("../img/UGAH4-BG2.jpg");
 }
 
-#challenges {
+#challenges, #online {
     background-image: url("../img/UGAH4-BG3.jpg");
 }
 
-#schedule {
+#schedule, #onsite {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
@@ -253,17 +253,25 @@ h5 - for date
 h6 - for subject*/
 /*End of adding Timeline - like UGAHACKS3*/
 
-#registration {
+#registration, #workshops {
     background-image: url("../img/UGAH4-BG5.jpg");
 }
 
-#faq {
+#faq, #hotels {
     background-image: url("../img/UGAH4-BG6.jpg");
 }
 
 #faq h3 {
     margin-top: 1em;
     font-weight: bold;
+}
+
+#thankyou {
+    background: url("../img/UGAH4-BG7-black.jpg");
+    min-height: 60vh;
+    background-size: cover;
+    min-height: 800px;
+    background-position: top center;
 }
 
 #sponsors {
@@ -360,5 +368,8 @@ h6 - for subject*/
     #pwcready {
         max-width: 100px;
         max-height: 100px;
+    }
+    #parking-map {
+        max-height:35vh;
     }
 }
