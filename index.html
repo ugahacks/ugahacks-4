@@ -58,8 +58,8 @@
 				<div class="boxtext">
 					<p>
 						At UGAHacks, we help your ideas sprout to life.
-						Log on and get hacking with us in this epic 36 hour hackathon, hosted in Georgia's quintessential college town,
-						Athens.
+						Log on and get hacking with us in this epic 36 hour programming sleepover, hosted in UGA's expansive Lamar Dodd
+						School of Art building.
 					</p>
 					<br />
 					<p>
@@ -178,8 +178,8 @@
 					<h3>Where? </h3>
 					<p>
 						The <a href="https://goo.gl/maps/ufiFo4PmKb82">Lamar Dodd School of Art</a>, University of Georgia, Athens, GA.
-						We're very excited about the very large venue upgrade this year, and we'll be posting parking information very
-						soon!
+						We're very excited about the very large venue upgrade this year, and we'll have plenty of room for sleeping bags,
+						so feel free to stay all weekend!
 					</p>
 					<h3>Who can sign up? </h3>
 					<p>
@@ -199,43 +199,48 @@
 						you're staying overnight, be sure to bring the necessary toiletries and a sleeping bag. Additionally, please
 						bring your official student ID or government ID (no photocopies allowed).
 					</p>
-					<h3>Can I start working on my project before the event? </h3>
-					<p>
-						No. All UGAHacks projects must begin at the hackathon. You are not permitted to begin a hackathon project before
-						this event. Feel free to bring ideas, but no code!
-					</p>
-					<h3>What if I don't have a team or idea? </h3>
-					<p>
-						Don't sweat it! You're free to join any existing team or form a new one when you get there. We'll also provide
-						ample opportunities for hackers to meet each other and brainstorm some amazing ideas.
-					</p>
-					<h3>How many people can I have on my team? </h3>
-					<p>
-						There is no hard limit, but we recommend teams be at most 4 people, as we only have prizes for 4 people per team.
-					</p>
-					<h3>Will you be offering travel reimbursements? </h3>
-					<p>
-						Yes, we will be offering travel reimbursements! Please make sure to note it on your registration and we will
-						reach out to you upon acceptance. University of Georgia students are not eligible to receive travel
-						reimbursements.
-					</p>
-					<h3>Where will I sleep? </h3>
-					<p>
-						We'll have designated sleeping areas for hackers, but they will be on a first-come-first-serve basis. You're
-						welcome and even encouraged to bring a sleeping bag!
-					</p>
-					<h3>Can I volunteer / mentor at UGAHacks? </h3>
-					<p>
-						We love your enthusiasm! Volunteers and mentors can apply via the registration form above! If you have any
-						questions regarding the position, please contact us at
-						<a href="mailto:hackathon@uga.edu">hackathon@uga.edu</a>
-						- Be sure to mention it in the subject. See you soon!
-					</p>
-					<h3>I have more questions? </h3>
-					<p>
-						That's not actually a question, but if you've got one then we'll be happy to answer it! Reach out to us at
-						<a href="mailto:hello@ugahacks.com">hello@ugahacks.com</a>.
-					</p>
+					<br />
+					<a class="collapsible btn">More</a>
+					<div class="content">
+						<h3>Can I start working on my project before the event? </h3>
+						<p>
+							No. All UGAHacks projects must begin at the hackathon. You are not permitted to begin a hackathon project before
+							this event. Feel free to bring ideas, but no code!
+						</p>
+						<h3>What if I don't have a team or idea? </h3>
+						<p>
+							Don't sweat it! You're free to join any existing team or form a new one when you get there. We'll also provide
+							ample opportunities for hackers to meet each other and brainstorm some amazing ideas.
+						</p>
+						<h3>How many people can I have on my team? </h3>
+						<p>
+							There is no hard limit, but we recommend teams be at most 4 people, as we only have prizes for 4 people per
+							team.
+						</p>
+						<h3>Will you be offering travel reimbursements? </h3>
+						<p>
+							Yes, we will be offering travel reimbursements! Please make sure to note it on your registration and we will
+							reach out to you upon acceptance. University of Georgia students are not eligible to receive travel
+							reimbursements.
+						</p>
+						<h3>Where will I sleep? </h3>
+						<p>
+							We'll have designated sleeping areas for hackers, but they will be on a first-come-first-serve basis. You're
+							welcome and even encouraged to bring a sleeping bag!
+						</p>
+						<h3>Can I volunteer / mentor at UGAHacks? </h3>
+						<p>
+							We love your enthusiasm! Volunteers and mentors can apply via the registration form above! If you have any
+							questions regarding the position, please contact us at
+							<a href="mailto:hackathon@uga.edu">hackathon@uga.edu</a>
+							- Be sure to mention it in the subject. See you soon!
+						</p>
+						<h3>I have more questions? </h3>
+						<p>
+							That's not actually a question, but if you've got one then we'll be happy to answer it! Reach out to us at
+							<a href="mailto:hello@ugahacks.com">hello@ugahacks.com</a>.
+						</p>
+					</div>
 				</div>
 				<div class="decor">
 					<img src="img/H4faq.png" />
@@ -292,6 +297,18 @@
 			speed: 800,
 			offset: 40
 		});
+		var more = document.getElementsByClassName("collapsible");
+		for (let i = 0; i < more.length; i++) {
+			more[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			})
+		}
 	</script>
 </body>
 

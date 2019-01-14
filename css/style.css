@@ -76,6 +76,10 @@ footer a:hover {
 
 /* Classes */
 
+.content {
+    display: none;
+}
+
 .box {
     margin: 120px 0;
 }
