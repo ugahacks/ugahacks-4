@@ -60,7 +60,25 @@ h6 {
     font-weight: lighter;
 }
 
+footer {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
+
 /* Classes */
+
+.content {
+    display: none;
+}
 
 .box {
     margin: 120px 0;
@@ -194,15 +212,18 @@ h6 {
     margin: 0 auto;
 }
 
-#about, #friday-prep {
+#about,
+#friday-prep {
     background-image: url("../img/UGAH4-BG2.jpg");
 }
 
-#challenges, #online {
+#challenges,
+#online {
     background-image: url("../img/UGAH4-BG3.jpg");
 }
 
-#schedule, #onsite {
+#schedule,
+#onsite {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
@@ -253,11 +274,13 @@ h5 - for date
 h6 - for subject*/
 /*End of adding Timeline - like UGAHACKS3*/
 
-#registration, #workshops {
+#registration,
+#workshops {
     background-image: url("../img/UGAH4-BG5.jpg");
 }
 
-#faq, #hotels {
+#faq,
+#hotels {
     background-image: url("../img/UGAH4-BG6.jpg");
 }
 
@@ -275,6 +298,7 @@ h6 - for subject*/
 }
 
 #sponsors {
+    display: grid;
     background: linear-gradient(
             to bottom,
             rgba(40, 40, 40, 1) 0%,
@@ -316,6 +340,16 @@ h6 - for subject*/
 }
 .partnerlogos img {
     max-height: 60px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #e4464a;
 }
 
 @media (max-width: 768px), (orientation: portrait) {
@@ -364,12 +398,11 @@ h6 - for subject*/
     #main .btn {
         bottom: 12%;
     }
-    #ulred,
-    #pwcready {
-        max-width: 100px;
-        max-height: 100px;
+    .sponsorlogos {
+        display: flex;
+        flex-direction: column;
     }
     #parking-map {
-        max-height:35vh;
+        max-height: 35vh;
     }
 }
