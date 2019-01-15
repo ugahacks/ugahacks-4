@@ -222,19 +222,39 @@ footer a:hover {
     background-image: url("../img/UGAH4-BG3.jpg");
 }
 
+#schedule{
+    display:grid;
+    text-align: center;
+}
+
 #schedule,
 #onsite {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
 #schedule tr {
-    line-height: 2em;
+    line-height: 1.25em;
 }
 
-#schedule tr > td:nth-of-type(1) {
-    text-align: right;
+#schedule tr > td{
+    padding-top: 2em;
+    text-align: left;
     padding-right: 50px;
 }
+
+#schedule tr>td:nth-of-type(3){
+    padding-right:0px;
+} /*ugly but need to center it properly - 3rd column will not have padding*/
+
+.schedule-day{
+    display:flex;
+    justify-content: center;
+}/*a new class separated from schedule(timeline)*/
+
+.day{
+    font-weight: bold;
+}
+
 
 /* adding Timeline - like UGAHACKS3*/
 .timeline-line {
