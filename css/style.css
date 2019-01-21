@@ -183,24 +183,24 @@ footer a:hover {
     margin-top: -100px;
 }
 
-#main > div > div > *:nth-child(1) {
+/* #main > div > div > *:nth-child(1) {
     margin-left: 7vw;
-}
+} */
 
 #main > div > div > * {
-    margin: 0 1em;
     display: inline-block;
     vertical-align: middle;
 }
 
 #main img {
-    min-width: 150px;
-    width: 15%;
-    max-width: 250px;
+    min-width: 100px;
+    width: 80%;
+    max-width: 768px;
+    margin-bottom: 50px;
 }
 
 #main h1 {
-    font-size: 3vw;
+    font-size: 1.8vw;
 }
 
 #main .btn {
@@ -222,8 +222,8 @@ footer a:hover {
     background-image: url("../img/UGAH4-BG3.jpg");
 }
 
-#schedule{
-    display:grid;
+#schedule {
+    display: grid;
     text-align: center;
 }
 
@@ -236,20 +236,19 @@ footer a:hover {
     line-height: 1.25em;
 }
 
-#schedule tr > td{
+#schedule tr > td {
     padding-top: 2em;
     text-align: left; /*maybe center is better*/
 }
 
-.table-wrapper{
-    display:flex;
+.table-wrapper {
+    display: flex;
     justify-content: space-between;
 }
 
-.day{
+.day {
     font-weight: bold;
 }
-
 
 /* adding Timeline - like UGAHACKS3*/
 .timeline-line {
@@ -404,9 +403,6 @@ h6 - for subject*/
         margin: 1em auto;
         display: block;
     }
-    #main > div > div > *:nth-child(1) {
-        margin-left: 0;
-    }
     #main h1 {
         font-size: 2em;
     }
@@ -420,8 +416,8 @@ h6 - for subject*/
     #parking-map {
         max-height: 35vh;
     }
-    .table-wrapper{
-        display:flex;
+    .table-wrapper {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
