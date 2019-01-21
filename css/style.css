@@ -238,18 +238,13 @@ footer a:hover {
 
 #schedule tr > td{
     padding-top: 2em;
-    text-align: left;
-    padding-right: 50px;
+    text-align: left; /*maybe center is better*/
 }
 
-#schedule tr>td:nth-of-type(3){
-    padding-right:0px;
-} /*ugly but need to center it properly - 3rd column will not have padding*/
-
-.schedule-day{
+.table-wrapper{
     display:flex;
-    justify-content: center;
-}/*a new class separated from schedule(timeline)*/
+    justify-content: space-between;
+}
 
 .day{
     font-weight: bold;
@@ -424,5 +419,10 @@ h6 - for subject*/
     }
     #parking-map {
         max-height: 35vh;
+    }
+    .table-wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
