@@ -238,6 +238,7 @@ footer a:hover {
 
 #schedule tr > td {
     padding-top: 2em;
+    padding-right: 1em;
     text-align: left; /*maybe center is better*/
 }
 
@@ -254,13 +255,11 @@ footer a:hover {
     width:80%;
     padding-left:1em;
 }
-#sunday{
-    padding-left:2em;
-}
 
 .time{
     font-weight: bold;
     width: 20%;
+    text-align: right;
 }
 
 /* adding Timeline - like UGAHACKS3*/
