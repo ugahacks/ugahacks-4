@@ -250,6 +250,19 @@ footer a:hover {
     font-weight: bold;
 }
 
+.schedule-day{
+    width:80%;
+    padding-left:1em;
+}
+#sunday{
+    padding-left:2em;
+}
+
+.time{
+    font-weight: bold;
+    width: 20%;
+}
+
 /* adding Timeline - like UGAHACKS3*/
 .timeline-line {
     margin: auto 0;
