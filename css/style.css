@@ -232,34 +232,36 @@ footer a:hover {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
+#schedule table {
+    /* width: 30%; */
+    max-width: 360px;
+    min-width: 300px;
+    padding: 0 20px;
+}
+
 #schedule tr {
     line-height: 1.25em;
+    text-align: left; /*maybe center is better*/
+}
+
+#schedule tr > th {
+    padding: 1em 0;
+    text-align: center;
+}
+
+#schedule tr > td:first-of-type {
+    padding-right: 20px;
+    text-align: right;
+    font-weight: bold;
 }
 
 #schedule tr > td {
-    padding-top: 2em;
-    padding-right: 1em;
-    text-align: left; /*maybe center is better*/
+    padding: 1em 0;
 }
 
 .table-wrapper {
     display: flex;
     justify-content: space-between;
-}
-
-.day {
-    font-weight: bold;
-}
-
-.schedule-day{
-    width:80%;
-    padding-left:1em;
-}
-
-.time{
-    font-weight: bold;
-    width: 20%;
-    text-align: right;
 }
 
 /* adding Timeline - like UGAHACKS3*/
