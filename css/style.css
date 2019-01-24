@@ -234,6 +234,7 @@ footer a:hover {
 
 #schedule table {
     max-width: 360px;
+    min-width: 250px;
     padding: 0 20px;
 }
 
