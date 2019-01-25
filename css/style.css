@@ -232,34 +232,37 @@ footer a:hover {
     background-image: url("../img/UGAH4-BG4.jpg");
 }
 
-#schedule tr {
-    line-height: 1.25em;
+#schedule .table-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#schedule tr > td {
-    padding-top: 2em;
-    padding-right: 1em;
+#schedule table {
+    width: 300px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+#schedule tr {
+    line-height: 1.25em;
     text-align: left; /*maybe center is better*/
 }
 
-.table-wrapper {
-    display: flex;
-    justify-content: space-between;
+#schedule tr > th {
+    padding: 1em 0;
+    text-align: center;
 }
 
-.day {
-    font-weight: bold;
-}
-
-.schedule-day{
-    width:80%;
-    padding-left:1em;
-}
-
-.time{
-    font-weight: bold;
-    width: 20%;
+#schedule tr > td:first-of-type {
+    padding-right: 20px;
     text-align: right;
+    font-weight: bold;
+}
+
+#schedule tr > td {
+    padding: 10px 0;
 }
 
 /* adding Timeline - like UGAHACKS3*/
@@ -346,16 +349,24 @@ h6 - for subject*/
     font-weight: normal;
 }
 
+#sponsors .box {
+    margin: 0;
+}
+
+#sponsors .boxhead {
+    margin-top: 90px;
+}
+
 .sponsorlogos {
     align-items: center;
     display: flex;
-    margin-top: 2em;
     justify-content: center;
     justify-content: space-evenly;
 }
 
 .sponsorlogos img {
     max-width: 120px;
+    padding: 20px;
 }
 
 .partnerlogos {
@@ -428,9 +439,9 @@ h6 - for subject*/
     #parking-map {
         max-height: 35vh;
     }
-    .table-wrapper {
+    /* .table-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 }
