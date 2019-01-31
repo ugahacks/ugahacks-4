@@ -373,6 +373,10 @@ h6 - for subject*/
     padding: 20px;
 }
 
+.uga-logo {
+    max-width: 160px !important;
+}
+
 .partnerlogos {
     display: flex;
     margin-top: 0.5em;
